@@ -1,0 +1,24 @@
+{
+  "name": "@neo4j-documentation/antora-training-extension",
+  "version": "0.1.0",
+  "description": "An Antora extension that adds additional data on training pages",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neo4j-documentation/antora-training-extension.git"
+  },
+  "keywords": [
+    "antora",
+    "extension",
+    "neo4j"
+  ],
+  "author": "Guillaume Grossetie <ggrossetie@yuzutech.fr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neo4j-documentation/antora-training-extension/issues"
+  },
+  "homepage": "https://github.com/neo4j-documentation/antora-training-extension#readme"
+}

@@ -1,0 +1,28 @@
+= Antora Training Extension
+
+This extension adds additional data on training pages.
+
+== Installation
+
+Begin by installing the extension package into your playbook project:
+
+ $ npm i @neo4j-documentation/antora-training-extension
+
+We strongly recommend installing dependencies into your playbook project.
+This strategy makes it easier to manage the dependencies, clearly documents those dependencies, and ensures the build is portable and isolated from other sites.
+
+== Usage
+
+Now that you have the extension installed, you need to register the extension with Antora.
+To register the extension, you'll add an entry that cites the name of the package to the `antora.extensions` key in your Antora playbook file.
+
+Open the Antora playbook file and add the extension as follows:
+
+.antora-playbook.yml
+[source,yaml]
+----
+antora:
+  extensions:
+  - '@neo4j-documentation/antora-training-extension'
+----
+
